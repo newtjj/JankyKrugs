@@ -1,0 +1,70 @@
+#parent {
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+	background-color: #458080;
+}
+
+#body {
+    background-color: #000000;
+    position: relative;
+}
+
+header {
+    background-color: #A0D5A8;
+    padding-top: 10px;
+}
+
+section {
+	background-color: #458080;
+    width: 660px;
+}
+
+aside {
+    background-color: #93B1C6;
+    height: 550px;
+    width: 300px;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    position: relative;
+}
+
+footer {
+    background-color: #AADDDD;
+    position: relative;
+}
+
+footer p {
+    margin:0px;
+    color: #000000;
+}
+
+footer > p {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	font-family: 'Sarina', cursive;
+	font-weight:normal;
+	font-size:15px;
+}
+
+aside p {
+    margin: auto;
+    text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+
+#mainContent {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 660px;
+    height: auto;
+}
+
+.right {
+    float: right;
+}
