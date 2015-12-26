@@ -1,6 +1,6 @@
 #parent {
     margin: 0 auto;
-    width: 960px;
+    width: 65%;
     position: relative;
 	background-color: #458080;
 }
@@ -17,13 +17,13 @@ header {
 
 section {
 	background-color: #458080;
-    width: 660px;
+    width: 68%;
 }
 
 aside {
     background-color: #93B1C6;
     height: 550px;
-    width: 300px;
+    width: 25%;
     margin-bottom: -9999px;
     padding-bottom: 9999px;
     position: relative;
@@ -61,7 +61,7 @@ aside p {
 
 .left {
     float: left;
-    width: 660px;
+    width: 68%;
     height: auto;
 }
 
