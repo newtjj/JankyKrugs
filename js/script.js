@@ -43,7 +43,7 @@ function populate() {
 			src:'https://www.youtube.com/embed/5LiZesUDIfE', 
 			frameborder:'0',
 			allowfullscreen: 'allowfullscreen'
-		}).appendTo('video-container');
+		}).appendTo('#video-container');
 	}
 
 	if (clickedID == 'StoicAetos') {
@@ -58,7 +58,7 @@ function populate() {
 			src:'https://www.youtube.com/embed/dJ_OoZu2pyI', 
 			frameborder:'0',
 			allowfullscreen: 'allowfullscreen'
-		}).appendTo('section');
+		}).appendTo('#video-container');
 	}
 
 	if (clickedID == 'Thrompy') {
@@ -73,6 +73,6 @@ function populate() {
 			src:'https://www.youtube.com/embed/64kAeHVxiM8', 
 			frameborder:'0',
 			allowfullscreen: 'allowfullscreen'
-		}).appendTo('section');	
+		}).appendTo('#video-container');	
 	}
 }
