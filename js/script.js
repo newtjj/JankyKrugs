@@ -26,6 +26,11 @@ function addMembers() {
 function populate() {
 	var clickedID = $(this).attr('id');
 	$('section').empty();
+
+	$('<div></div>', {
+		id: 'video-container'
+	}).appendTo('section');
+
 	if (clickedID == 'FritzyP') {
 		$('<p></p>', {
 			id: 'contentHeader'
@@ -36,8 +41,9 @@ function populate() {
 			width:'560', 
 			height:'315', 
 			src:'https://www.youtube.com/embed/5LiZesUDIfE', 
-			frameborder:'0'
-		}).appendTo('section');
+			frameborder:'0',
+			allowfullscreen: 'allowfullscreen'
+		}).appendTo('video-container');
 	}
 
 	if (clickedID == 'StoicAetos') {
@@ -50,7 +56,8 @@ function populate() {
 			width:'560', 
 			height:'315', 
 			src:'https://www.youtube.com/embed/dJ_OoZu2pyI', 
-			frameborder:'0'
+			frameborder:'0',
+			allowfullscreen: 'allowfullscreen'
 		}).appendTo('section');
 	}
 
@@ -64,7 +71,8 @@ function populate() {
 			width:'560', 
 			height:'315', 
 			src:'https://www.youtube.com/embed/64kAeHVxiM8', 
-			frameborder:'0'
+			frameborder:'0',
+			allowfullscreen: 'allowfullscreen'
 		}).appendTo('section');	
 	}
 }
