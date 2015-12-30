@@ -27,16 +27,18 @@ function populate() {
 	var clickedID = $(this).attr('id');
 	$('section').empty();
 
-	$('<div></div>', {
-		id: 'video-container'
-	}).appendTo('section');
+
 
 	if (clickedID == 'FritzyP') {
 		$('<p></p>', {
 			id: 'contentHeader'
 		}).append('FritzyP').appendTo('section');
 
-	$('<iframe></iframe>', {
+		$('<div></div>', {
+			id: 'video-container'
+		}).appendTo('section');
+
+		$('<iframe></iframe>', {
 			id: 'montageVid',
 			width:'560', 
 			height:'315', 
@@ -50,6 +52,10 @@ function populate() {
 		$('<p></p>', {
 			id: 'contentHeader'
 		}).append('StoicAetos').appendTo('section');
+
+		$('<div></div>', {
+			id: 'video-container'
+		}).appendTo('section');
 
 		$('<iframe></iframe>', {
 			id: 'montageVid',
@@ -66,7 +72,11 @@ function populate() {
 			id: 'contentHeader'
 		}).append('Thrompy').appendTo('section');
 
-	$('<iframe></iframe>', {
+		$('<div></div>', {
+			id: 'video-container'
+		}).appendTo('section');
+
+		$('<iframe></iframe>', {
 			id: 'montageVid',
 			width:'560', 
 			height:'315', 
