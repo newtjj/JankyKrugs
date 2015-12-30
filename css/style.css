@@ -10,9 +10,17 @@
     position: relative;
 }
 
-header {
+#mainTitle {
+    margin: 0 auto;
+    position: relative;
+    width: 65%;
     background-color: #A0D5A8;
+    text-align: center;
+    padding-bottom: 10px;
     padding-top: 10px;
+    font-family: 'Black Ops One', cursive;
+    font-weight:bold;
+    font-size: 80px;
 }
 
 section {
@@ -45,7 +53,7 @@ footer > p {
     padding-top: 10px;
 	font-family: 'Sarina', cursive;
 	font-weight:normal;
-	font-size:15px;
+	font-size: 15px;
 }
 
 aside p {
@@ -71,4 +79,17 @@ aside p {
 
 ul {
 	list-style-type: none;
+}
+
+#contentHeader {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Unlock', cursive;
+    font-weight:normal;
+    font-size: 40px;
+}
+
+#montageVid {
+    padding-left: 10px;
 }
